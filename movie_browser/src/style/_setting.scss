@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+$font_logo: 'Libre Baskerville', serif;
+$font_movies: 'Poppins', sans-serif;
+
+$color_1: rgb(30, 21, 36);
+$color_text: #22254b;
+$color_search: #fff;
+
+$color_background_movies: #373b69;
+$color_background_overview: #fff;
+$color_background_header: #2b2e55;
+
+$color_logo_left:  #e91616;
+$color_logo_right: white;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color_1;
+    color: $color_text;
+    font-family: $font_movies;
+    margin: 0;
+}
